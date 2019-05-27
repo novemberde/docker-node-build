@@ -16,6 +16,9 @@ RUN apk add --no-cache python3 && \
     rm -r /usr/lib/python*/ensurepip && \
     pip3 install --upgrade pip setuptools
 
+# Install python2.7
+RUN apk add --no-cache python
+
 # Install AWS-CLI
 RUN pip3 install awscli --upgrade
 
