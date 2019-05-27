@@ -25,8 +25,8 @@ $ docker run -it --privileged --rm --name node-build novemberde/node-build:10.15
 ### Languages
 
 - Python3 & pip3
-- Node.js & NPM
-- Golang
+- Node.js & NPM: 10.15.3
+- Golang: 1.12.5
 
 ### Support environments
 
